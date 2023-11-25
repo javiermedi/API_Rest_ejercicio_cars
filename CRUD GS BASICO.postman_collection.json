@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "6f4b042e-e66b-4113-b8f5-76cf0858c43e",
+		"_postman_id": "d255a8de-c5c6-4a6d-8d9f-a19377371fcb",
 		"name": "CRUD GS BASICO",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-		"_exporter_id": "23676000"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10729130"
 	},
 	"item": [
 		{
@@ -11,7 +11,21 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:8080/cars/carsbooks/delete/all/sinwhere"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks/delete/all/sinwhere",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks",
+						"delete",
+						"all",
+						"sinwhere"
+					]
+				}
 			},
 			"response": []
 		},
@@ -20,7 +34,18 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8080/cars/carsbooks"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks"
+					]
+				}
 			},
 			"response": []
 		},
@@ -29,7 +54,19 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8080/cars/carsbook/3"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbook/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbook",
+						"3"
+					]
+				}
 			},
 			"response": []
 		},
@@ -47,7 +84,18 @@
 						}
 					}
 				},
-				"url": "http://localhost:8080/cars/carsbooks"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks"
+					]
+				}
 			},
 			"response": []
 		},
@@ -65,7 +113,19 @@
 						}
 					}
 				},
-				"url": "http://localhost:8080/cars/carsbooks/53"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks/53",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks",
+						"53"
+					]
+				}
 			},
 			"response": []
 		},
@@ -74,7 +134,19 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:8080/cars/carsbooks/52"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks/52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks",
+						"52"
+					]
+				}
 			},
 			"response": []
 		},
@@ -92,7 +164,21 @@
 						}
 					}
 				},
-				"url": "http://localhost:8080/cars/carsbooks/solo/titulo/53"
+				"url": {
+					"raw": "http://localhost:8080/cars/carsbooks/solo/titulo/53",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cars",
+						"carsbooks",
+						"solo",
+						"titulo",
+						"53"
+					]
+				}
 			},
 			"response": []
 		}
