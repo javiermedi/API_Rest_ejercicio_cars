@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "6f4b042e-e66b-4113-b8f5-76cf0858c43e",
+		"name": "CRUD GS BASICO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23676000"
+	},
+	"item": [
+		{
+			"name": "deleteAllSinWhere",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/cars/carsbooks/delete/all/sinwhere"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllCarsBooks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/cars/carsbooks"
+			},
+			"response": []
+		},
+		{
+			"name": "getBookById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/cars/carsbook/3"
+			},
+			"response": []
+		},
+		{
+			"name": "createBook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Lo nuevo del comodo 2300\",\r\n    \"resumen\": \"Encuentra lo mejor en la gama futurista 3000\",\r\n    \"publicado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/cars/carsbooks"
+			},
+			"response": []
+		},
+		{
+			"name": "updateBook",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Lo nuevo de 2023\",\r\n    \"resumen\": \"Encuentra lo mejor en la gama futurista\",\r\n    \"publicado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/cars/carsbooks/53"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteBookById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/cars/carsbooks/52"
+			},
+			"response": []
+		},
+		{
+			"name": "patchBookById",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Lo nuevo de 2023\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/cars/carsbooks/solo/titulo/53"
+			},
+			"response": []
+		}
+	]
+}
