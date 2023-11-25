@@ -10,5 +10,5 @@ Prectica de API REST
 ```
 mvn spring-boot:run
 ```
-puerto por defecto http://localhost:8080
-Ruta por defecto de h2 http://localhost:8080/h2-ui/
+puerto por defecto http://localhost:9090
+Ruta por defecto de h2 http://localhost:9090/h2-ui/
