@@ -10,4 +10,5 @@ Prectica de API REST
 ```
 mvn spring-boot:run
 ```
-acceder al proyecto por medio de la url
+puerto por defecto http://localhost:8080
+Ruta por defecto de h2 http://localhost:8080/h2-ui/
